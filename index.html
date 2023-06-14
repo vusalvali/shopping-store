@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pre-navbar">
+      <div class="welcome-number">
+        <div class="welcome">Welcome to Our store Multikart</div>
+        <div class="number">
+          <i class="fa-solid fa-phone"></i>Call Us: 123 - 456 - 7890
+        </div>
+      </div>
+      <div class="whishlist-account">
+        <div class="whishlist"><i class="fa-solid fa-heart"></i>Whishlist</div>
+        <div class="account"><i class="fa-solid fa-user"></i>My Account</div>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="menubar">
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <img src="./img/logo.png" />
+      </div>
+
+      <div class="nav-list" id="showme">
+        <div class="nav-list-inside-container">
+          <div class="hiding-div">BACK NAVBAR</div>
+          <hr />
+
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              HOME
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              SHOP
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              PRODUCTS
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              FEATURES
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              PAGES
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              BLOGS
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">New Demos</a>
+              <a class="dropdown-item" href="#">Clothing</a>
+              <a class="dropdown-item" href="#">Basics</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <i class="fa-solid fa-bars bar-not-bigsc"></i>
+
+      <div class="search-settings">
+        <div class="search">
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="dropdown settings-dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-gear settings"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"
+              >Language
+              <ul>
+                <li>English</li>
+                <li>French</li>
+              </ul>
+              Currency
+              <ul>
+                <li>Manat</li>
+                <li>Lirə</li>
+                <li>Dollar</li>
+                <li>Tümən</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <div class="dropdown basket-dropwdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-basket-shopping basket"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Your cart is <br>currently empty</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Line>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  -->
+    <div class="product-line">
+      <div class="product"><span>PRODUCT</span></div>
+      <div class="home-product"><span>HOME /</span><span> PRODUCT</span></div>
+    </div>
+    <!-- MAIN PRODUCT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="main-product-page">
+      <div class="main-cloth-div">
+        <div class="main-cloth-img">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/pic1.webp" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./img/pic2.webp" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./img/pic3.webp" class="d-block w-100" alt="..." />
+              </div>
+              <!-- <div class="carousel-item">
+                <img
+                  src="./img/pic4.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div> -->
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active below"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+                <img src="./img/pic1.webp" class="d-block w-100" alt="..." />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                class="below"
+                aria-label="Slide 2"
+              >
+                <img src="./img/pic2.webp" class="d-block w-100" alt="..." />
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                class="below"
+                aria-label="Slide 3"
+              >
+                <img src="./img/pic3.webp" class="d-block w-100" alt="..." />
+              </button>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="main-details-div">
+          <h5>WOMEN PINK SHIRT</h5>
+          <div class="main-details-stars-div">
+            <span class="fa fa-star checked main-details-star"></span>
+            <span class="fa fa-star checked main-details"></span>
+            <span class="fa fa-star checked main-details"></span>
+            <span class="fa fa-star checked main-details"></span>
+            <span class="fa fa-star main-details"></span>
+          </div>
+          <div class="main-details-icons-div">
+            <i class="fa-brands fa-facebook-f main-details-icon"></i>
+            <i class="fa-brands fa-google-plus-g main-details-icon"></i>
+            <i class="fa-brands fa-twitter main-details-icon"></i>
+            <i class="fa-brands fa-instagram main-details-icon"></i>
+            <i class="fa-solid fa-rss main-details-icon"></i>
+            <hr class="vl" />
+            <span class="fa fa-heart main-details-icon"></span
+            ><span>Add To WhishList</span>
+          </div>
+
+          <!-- ............... -->
+          <div class="three-dropdowns-nextto-main-pic">
+            <div class="dropdown dropdown-main-page">
+              <button class="dropbtn">
+                PRODUCT DESCRIPTION
+              </button>
+              <div id="myDropdown1" class="dropdown-content">
+                <a href="#"
+                  >it look like readable English. Many desktop publishing
+                  packages and web page editors now use Lorem Ipsum as their
+                  default model text, and a search for 'lorem ipsum' will
+                  uncover many web sites still in their infancy. Various
+                  versions have evolved over the years,All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with a handful of model sentence structures</a
+                >
+              </div>
+            </div>
+            <div class="dropdown dropdown-main-page">
+              <button onclick="myFunction()" class="dropbtn">DETAILS</button>
+              <div id="myDropdown2" class="dropdown-content">
+                <a
+                  href="https://www.youtube.com/watch?v=BUWzX78Ye_8&ab_channel=MotionPikczer"
+                  
+                >it look like readable English. Many desktop publishing
+                packages and web page editors now use Lorem Ipsum as their
+                default model text, and a search for 'lorem ipsum' will
+                uncover many web sites still in their infancy. Various
+                versions have evolved over the years,All the Lorem Ipsum
+                generators on the Internet tend to repeat predefined chunks as
+                necessary, making this the first true generator on the
+                Internet. It uses a dictionary of over 200 Latin words,
+                combined with a handful of model sentence structures</a>
+              </div>
+            </div>
+            <div class="dropdown dropdown-main-page">
+              <button onclick="myFunction()" class="dropbtn">REVIEW</button>
+              <div id="myDropdown3" class="dropdown-content">
+                <a href="#"
+                  >it look like readable English. Many desktop publishing
+                  packages and web page editors now use Lorem Ipsum as their
+                  default model text, and a search for 'lorem ipsum' will
+                  uncover many web sites still in their infancy. Various
+                  versions have evolved over the years,All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with a handful of model sentence structures</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price-time">
+        <div class="price-time-border">
+          <span><s>145%</s><span style="color: red">40% Off</span></span>
+          <h3>$145</h3>
+          <div class="circle-div">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+          </div>
+
+          <hr />
+          <span class="time-reminder">Time Reminder</span>
+          <div class="div-stopwatch">
+            <table>
+              <tr>
+                <th>9:</th>
+                <th>10:</th>
+                <th>32:</th>
+                <th>20</th>
+              </tr>
+              <tr>
+                <td>Days</td>
+                <td>Hrs</td>
+                <td>Min</td>
+                <td>Sec</td>
+              </tr>
+            </table>
+          </div>
+          <span class="select-size-text">Selecet Size</span>
+          <span
+            >S &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp m
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp l</span
+          >
+          <span class="quantity-text">Quantity</span>
+          <form action="">
+            <input type="number" id="lname" name="lname" />
+          </form>
+          <div class="two-buttons-div">
+            <button>ADD TO CART</button>
+            <button>BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RELATED PRODUCTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <h1 class="h1-related-products">RELATED PRODUCTS</h1>
+    <hr />
+
+    <div class="related-products-div">
+      <div class="pics-outer-div pic1-outer-div">
+        <div class="pic1-div seen-div">
+          <img class="pic1 seen-img" src="./img/pic-rp1.webp" />
+
+          <div class="pic1-hidden-div overlay-div">
+            <img class="pic1-hidden hidden-img" src="./img/pic-rp2.webp" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pics-outer-div">
+        <div class="pic2-div seen-div">
+          <img class="pic2 seen-img" src="./img/pic-rp3.webp" />
+          <div class="pic2-hidden-div overlay-div">
+            <img class="pic2-hidden hidden-img" src="./img/pic-rp4.webp" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+      <div class="pics-outer-div">
+        <div class="pic3-div seen-div">
+          <img class="pic3 seen-img" src="./img/pic-rp5.webp" />
+          <div class="pic3-hidden-div overlay-div">
+            <img class="pic3-hidden hidden-img" src="./img/pic-rp6.webp" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pics-outer-div">
+        <div class="pic4-div seen-div">
+          <img class="pic4 seen-img" src="./img/pic-rp7.webp" />
+          <div class="pic4-hidden-div overlay-div">
+            <img class="pic4-hidden hidden-img" src="./img/pic-rp8.webp" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pics-outer-div">
+        <div class="pic5-div seen-div">
+          <img class="pic5 seen-img" src="./img/pic-rp9.webp" />
+          <div class="pic5-hidden-div overlay-div">
+            <img class="pic5-hidden hidden-img" src="./img/pic-rp10.webp" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pics-outer-div">
+        <div class="pic6-div seen-div">
+          <img class="pic6 seen-img" src="./img/pic-rp11.webp" />
+          <div class="pic6-hidden-div overlay-div">
+            <img class="pic6-hidden hidden-img" src="./img/pic-rp12.jpg" />
+            <div class="icon-div">
+              <i class="fa-solid fa-cart-shopping flying-icons1"></i
+              ><i class="fa-solid fa-heart flying-icons2"></i
+              ><i class="fa-solid fa-magnifying-glass flying-icons3"></i
+              ><i class="fa-solid fa-arrows-spin flying-icons4"></i>
+            </div>
+          </div>
+        </div>
+        <div class="star-products-div">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span><br />
+          <span>trim dress</span><br />
+          <span>$145</span>
+          <div class="circle-products-div">
+            <div class="circle1-products"></div>
+            <div class="circle2-products"></div>
+            <div class="circle3-products"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div class="footer">
+      <div class="footer-first container">
+        <div class="know-it">
+          <h4 class="know-it-h4">KNOW IT ALL FIRST!</h4>
+          <p>
+            Never Miss Anything From Multikart By Signing Up To Our Newsletter.
+          </p>
+        </div>
+        <hr class="hr-3" />
+        <div class="input">
+          <input type="text" class="tomail" placeholder="Enter your email" />
+          <button class="subscri">SUBSCRIBE</button>
+        </div>
+      </div>
+
+      <hr class="hr-4" />
+
+      <div class="logo-box container">
+        <div class="logo-foot">
+          <div class="logo-img">
+            <img
+              src="https://multikart-react.vercel.app/assets/images/icon/logo.png"
+              alt=""
+            />
+          </div>
+          <h7
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ex
+            voluptatibus fugiat dol Iste similique possimus quas ipsam enim!
+            Eius, beatae!</h7
+          >
+
+          <p class="foot-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-rss"></i>
+          </p>
+        </div>
+        <div class="account-box box-foot">
+          <h1>MY ACCOUNT</h1>
+          <p>Womens</p>
+          <p>Clothing</p>
+          <p>Accessories</p>
+          <p>Featured</p>
+        </div>
+
+        <div class="choose-box box-foot">
+          <h1>WHY WE CHOOSE</h1>
+          <p>Shipping & Return</p>
+          <p>Secure Shopping</p>
+          <p>Gallary</p>
+          <p>Affiliates</p>
+          <p>Contacts</p>
+        </div>
+
+        <div class="store-box box-foot">
+          <h1>STORE INFORMATION</h1>
+          <p>
+            <i class="fa-solid fa-map-pin"></i>&nbsp;&nbsp; Multikart Demo
+            Store, Demo Store India 345-659
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>&nbsp; &nbsp;Call Us: 123-456-7898
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Email Us:
+            Support@Fiot.Com
+          </p>
+          <p><i class="fa-solid fa-fax"></i>&nbsp; &nbsp;Fax: 123456</p>
+        </div>
+      </div>
+
+      <div class="foot-foot">
+        <div class="copy">© Copyright 2022 by GROUP C</div>
+        <div class="bank-card">
+          <div class="bank-cards">
+            <img
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </div>
+          <div class="bank-cards">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAFjklEQVRIiaWWa4ycVRnHf+e8Zy47l52d7qXdWdputwsLtpUVWivLVkrgk2DwkghY1EBq8Erwgwnxg+FLIwlRMUGNxgYb+AJagjFySyRlu25Li9SitbSulO223e7M7Ozc573MOccPs0Nqs11t+CfvhzfPyfM77/Oc8/xfMf74fv6HtgJ3AWPAtcAqQAAFYBqYAl4G3lopiVohdjvwA+DOK8Q7gcGl+A+BA8CPgNeXWyyvkORp4I0VIMtpJ/Aa8Ov/B+QAE8C3rwJwub5Oq4zRlUAHgR0fAdLWJ2n17kNd2qNfArcACGsJVJhyLImvwghriXt1Em4VYQxCWFzCLJoUrgkjhCUp63SJCg4GgwD4BLAP+NqloG3AN4S1WCmZS68h6lbZdOZdeisLBE6ImZ61vD8wTIfvUl6MkJQenwodJxPJEVjF6eZ63g1GiDouGSdP0zoAXwV+Axxsg37e+ooQ86lexk9M8qWpF9mYnSHmu2ghKcY7mRrayjNjD3Dn6pN8l33cGJ0G2QAkjWaKP9dv5iflB5kOBtgYOt+G/QLYIsYf378J+AfA+VX9fO7wH3jspacwKkw21UvgOAgLcd0gcq7Euc2D3PpIFhHPQbUP3yqEgJBsgLNAqdHPfdknec+sZ70zh8YB2CaB+4W1zHetZvt7h/n+Sz9jMd7FTLofX4WwCIwULPpxCpsy3DCcpXRM4gVrca3AmCbaSlwdo+EPkuqYY2/3HhK2RoV4u//3S2C86TgoYfj8gd+h6y5532LyOfwLF2gWFvFm5wiy5+lccxZzTZlSzqd2fAYVcUHFsOWz2NpFcHN4iyEy9iS74q8xp3vboDEFDNeicdYeO8ToyACJ3T9lYzSG1Zr5555FaIHqXUPixuvoSEzjz19EywpyeBwx9gCqMoP+1x/BNEF72Egatuxg/G9VfvX2LKZTIjGDCujyVZjkB9P03LSOru89iq5WKU9MsmHPHiJDG/DOnEHXG8jULpy6T6hWQ23bgTn9CPrvzxK+91Vk+jpss46ZPQB9GXrUC6RkmcB2ExGmUwJCGkMQT2KTSVjI41+YI5zpp+OGEXS1SnR4GBkNY7wGxtcE2UXy+35LaPDjODd/C9G5HqJpbOEUxFZD8QRufpog3I3EfnhhizGvHsuObufff32B4AtfJB9LEcn0I5QCazGej656pEY8Oga7qB6dIeKcxBR3gXYJJh4DDObi28ihe3D0EU6VOijIPlaJ8wAVBUx3BF7m3DVDvD6hePjgBOVYGuu5WK0RCBASY8OYUR+xqYHjJUnvjBJMPoEJJBgDgI2miR55AhTsN3tJCLd9GGYU8Bewn04Xc/z+rofYWpxh7PQRpgeG0I6DsBYEaC0J3q+TDOVJfNZgkyE8dx0i2iqNRRKTJUjC0wvf4WB9M9eGZrGtcXTIWbfz3hyIb0YDj3Ksk6mR7fSV8mye/SddtRKRpk9no0pfLUc53MmPN+4m2NbN9aGjKFtESQ8lK4ScAhDiqcLDPFn+MhmVJyQ0LY/kUbHksMeAUWU0uWQ3Tcfh9hOTjJ45Tk+lQOCEONszwOTHxnhr4CaSxTJ3qze5LfYOA2qBwDqcCtbycv02ptwtDKgsceGiW+ZwCri+DbqlPdalNfgqTD7ZDUDcq9OUDrVIjLhXp7e2gGvDXFi6jHFZR1tJ1SRIyBqrncJSKUW7P3cAb7SH6iHgGeBBIyRKN1lTnMcKgREty0rXigA0cVBCs05dxCLQViIk9DnFywEAz9Ny6v8yvoeAdy5dJazFMRrHaJaTwKKExmHZ+AngvvbL5Q57K3B02axXp+MsmeiVQC4tG977ESDP0XLXykqgtnYDnwEmrwJwGLgH+AoszZ1LtNJ/3StLzzhwN61SbABStC5HCfiA1kH6E/DmSrv4D19DRIS7aeNEAAAAAElFTkSuQmCC"
+              alt=""
+            />
+          </div>
+          <div class="bank-cards">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAADwUlEQVRIibWWW0wcVRiAvzN7gV12ubVcCoJWQTQaLChekKJW1EjbaGxMxaTRqG1MMTE+GFMS6oOJfW5SrbHBS1If8Mk00iaatDQYKaKGNdZWi0qQCqUsMLMsy+7M7u/DOIhrXEoLXzKZnHP+Od+cy8x/VMQwWIa7gK1AI1ANFAIKmAaGga+B48BApk5UBtFDQAfQstyb/E0vcAD4YiWiQ0D7FQrSOQLsWU7kAk4Bm69S4vAN8ACw4FRoaQF9qyABuBt77RZZKjoM3LcKEoc64GOn4ExdA/Zw14JmoM8Z0TtrJAF4F+wR3SYiPyqlCAT9gAvEYm4uhoiglPrXUyKgFAR8XnBrYCWZi5mL9SJCMNsDbhfxeBLTsgAa3ECbphRej4uLE9Nc+GOSqopiritdh7OE5kIMT3YWC/Mxsv3ZAIxemmEkHKWqOEhZYQA0BSjMBZPL0QTjs1HyPVCYF0Qp1eYGmnJyfFwK67Ts/4ANQR/hWILOnVsoLsjFo8EdG0s5+8som6rKmZya4dzFaV7v/Z0cJczELd5suZWSPD+WadFcU0F79yBGNEbXU/WICJqmGt1AFZqbwQtjDI9P0bnzadrfO0ZoZJyJoWG6T33Pq082cX5simcfrqfrWB8l11eiW15e23wjL382RGhcZ/K3MB/1D3NgWy1/6vM8XrOB8tIi5iIRUim5QRPIBwiNTOCyUnzSG+KNHc2sD/op8Hnxez3kZHmpLivkmY4jbKosorWpjtGJaY4OjbHvwRoKfF4CLo3KwhxODk8C8EhVEWA6S5vrdrs0BdD15SBNtTfR89Zuu2VHByUBH3hcvPhoA4dPnCExEaZz12Ns7w5xT2UBPXu2AEKw41NKfF5K8v0kRTDiFnXl+Uh8UYRbRGZj81H/wd3bqS5bj1gmppXk+P7nOT82SXVFMevyAhz6vJ+2F1rJCuTxyp3l3FwUBDNBImlx4rlGzl2OcEtRkCy3i3gyhVIwn0g6ngiGbpzWZ2fFJin67KwYui5L+fanX2Vr5/syORUWM5EQEVMkGV8Sa4pIyr6n7HZd18UwDInY14CKGMbbwL7/+9pEBIBgbi5YCYxoDE1L/0Uuy0EVMYxaIJQpSimFphTJVGqlAod7NeAHYChTlIhci+RnYMCZg71X28sVsBf+SRP9wIdrIOkGTsJ/M+x3QP0qSc4CtzuF9O1zPzC4CpIQaUk0XbSAnYa7rkFyFDu7RjKJHF4CWoGvViA4AzwB7AIkvTHTuc6hCdiGPRUbgTzsA6QOjGBvpB7gdKZO/gJX4qTG+gXfMQAAAABJRU5ErkJggg=="
+              alt=""
+            />
+          </div>
+          <div class="bank-cards">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAEXklEQVRIia2Vy48UVRSHv3vrVlV39WseMIwOyDsM8ggqGEUMkrAwYuJWFrjwkRj8B4xx5cadC+Mj8RFjYmJYYNyIosb4HtCIYUGizoAzY8tMnAc9dHdVdVfde130NMy0MEiYX1LJvXXrnO/m1Mn5iS3Hy9xAu4FDwF5gM9ADCGAWGAF+BE4Ap5dKIpYAHQBeAA7e6Cbz+hp4Gfj8WofyOkGvAV/dBATgIeAk8Nb/ATnAt8BzNwHo1DO0yphZCvQd8OAtQNq6l9a/uyboTeD+ZYC0dRfwfidoD/DsMkLaeoL5CikAAa8DVDRoBACusCghCA0I7KJogcBikfMnBpBYbCsXBoEvLCUJGt4AdihgmxRiz0xTszMLGWGxBiIE46Fmb9EhtoByaDY1WSWJrUFqgwGslGQkxKnFWovvCC43NVo6jGmJL9gO7FbA4ammYWve4chqjw1dHho4M9VgV6/HuUrCmpxi+nKDO7oDJqoJWSUo5XwSbfjnUoTvOfQXfZSE0VrKoTUB7wzXeWUkRCmJIzisHMG+mShl/6Yi52PN0FhMV0/AnzVwA8GXFUM+tmzWhiR1+GIyZGteUk08fptt8uKObj4enmNqJmT1qgLDEyFl4VJzFCUlMK1q7xX9x/4qD+bkwEvb80xHmrmG5nJqWVvymIwMh9YX+PCPOQpJwrq+HMqV9LqCc5UEBTS0RWDR2jJcTXnqzhInLlQpFDI8f3aOvAAlmFRY2+UqyU+XUsoNQEi6rKFeSfCN4eRolShKOFVJuEfX6StlGApTaCT0F32Gxqus6MpgHAcRNvlsvE4j0QxfrGGjJjrj4ilZFNs+KtfrqQ0mGgZftLpmrgn7V7k83C0ZmY4o5D36Cj7nZyNUqukv+fiuw4XpiI19AY04wTEWFfhcnA1ZWfSJGymDBYdXLxomQx2q1FLxHRGsC5wr7VtPEw6sybEy6+Baw8CKHGORYXCgSHk6YqDoUtYOITEm66OF5O4cTFkHaTOs683yS7nG+v48q2brjFbTqqQ16jsksMZC1EBZi0xTbBgjG002FhWDJZdNvuXg6gARNYhqDaSFza6hPNfExAm9aM5XmtyWlTSMHZPAD52YQAnGqgk5V1ITivHI0FPKEsYp1lO8XU7ozSruWBGwNu9ye17xdyoYSSRru3xiBCrwmYwMp2cSejw5JLYcL+8Ezi4EOQKqiSXjOXRlHGailOlIs6HkMRsmxKkl8CSJtgSuJOc5NLVFW4vrCOpNQ3fGYaKe4hhD0ZP3tY3vV2DX1cKBtqBta/RIIZBAam1rLSA19sooWlR0IcCCxeIIgSP43cKgmj8/yoKxbgEpWoCFchfsXdleL/7m6ivRznUUrk7vIeC9/0bcso7RcupFfvQkcGYZIeeAx9ubTod9APh5GSBn6TDRTlBMy4bfvQXIB7TctboUqK2ngUeA728CcAp4DDgCHa3IvMNeR5/OP/uAR2mVYj1QYn4kAqO0GukT4JulbvEv6ofAhwGHwC0AAAAASUVORK5CYII="
+              alt=""
+            />
+          </div>
+          <div class="bank-cards">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAE80lEQVRIibWWa2wUVRiGn7ntzC67LYUWBAxpQUqkBm+AtrUQE4iQIpgmhGAMYPCCaIiJPxRI9I8GNdGooEAgEECNoCiIYCIaLm0pVLDWAoVSCZXaUiiku1v2MrMznz+WJVCQooH335mcc5555zvzvUeJRiL0ojFAOVACjAD6AQpwEWgG9gM7gYM320S5CehxYDEwsbc3uaw9wFLgp/8CWg68fIuAnloNvNAbSAN2A2X/E5JRLTABSGQeqD0mVN4GCMA40rW7oqtBK4Di2wDJ6EFgfWaQ+XRjSdu9ExoPVGYcfXqHIACfQdpREXDkDoIAxurALM/zME0fpuW/4SwvlULVdQCitoBPQYAsANfBcT0Mn3ndumQiTjJpo6rqLB14zDRNYrEYy1esxvT7qXiynNa2dtrazyIiTCgr4aNlK8gZks/8meUoP65EyR/F9s5+jC4sICsYYNumb9F0jcEDB9LecQ7XTTF96hRM04ebckt04B7Tsqg+UMve6oOUFo9j9osLGTliGFU1tcx5eiYnmjfScbGL0okjcTYsxPhuI9ZIg99aRnFs5jsMD7qsWrcB13GYNnUKx5ua+b2+gUAgwIyK6XRHo/kq0BegKxzmsdJiKqaVU3XgIFmhEO+//Rb1R46ybOUaFr6ygCdKx+CeOkTKB3aTwxvPP8XmHbv4YvMW3nz9NfJychhfWszxppPk9Mvh0XFjSDk2qFqWtnjRoiW6YRiaprH56y3UH23kpefm4nke0Wg3mqZRMa2cTV9t4lRnN49MrsB37jBe0cNY89bQ3nqG+wsLKJ88iZoD1eTmDeDewhEMGXwXAb9FfsEwUqbPIRqJ/B2JRMROJqSttVUi4bCIiNjJpLS0/CWO44iISOOxRqmq3i8ZnQ0npO1c15Wx57pypuW0NJ1sFhER17Glrb1DoiIS/WVdhxKNRPaKyHhVVQn4/TiOg5NK0ScYZO+ePTQ2NhKLx8nt35/s7Cw6L1zkfDjGsPyh5PUNUVlZSTKZpLCwkDlz5yKeRyIeR/WZKIZOcv9mWPHMIRWoVhQFEeFSLIbtOIgIALquEw6HudDZic80KSq6D9d18eIRsvw+wuEwiqrieh62bROLxUjE47iagWPo2LVb4YOZkDu0RolGIqOB+hv9P4ZhYFoW4a4uHMchFAphWhYAFzo7iUaj5BcU4LkuiUSCRCyGlZeHB7BrFbJmPph+GD2pJNPr6oAHroaICJqmAeDz+RARbNsm417XdTRNw3EcVEUBFFJ+CwFY/yry/ceQFYQBBU3k3D0yAyqmR1u/ZXkeBLPTSdbSgKxdAH9UwaDBYJgQyJ6Ebv18dfCtBZ69ZYAIWEHwqeCk4If3kG3vQrwbBg0H8UDVvkHVZuC51yXsYeChmwOAPqG0AwGqPkd2fggn6iC3PwT7gZMEVWtEUUfhucD1UW4B+0jn07Uy/GClGyvdEfh1C7JvHRypBMuA3KFpl04SAtkNGP4youfDqOk66z22S5CO4TV43jx0H/S53NEdDxqroX4nUrcdTjWAqcHgAlBUSDlpi2afL8kaOBs77uK5ZED/ft3StCmk7CWcrC7l+B6k+QCcroPopfRpCuWlHYibBmlGLYZ/KWZgK74AJLoh3A6a0QsoFII/65BPKsroPDMVM1BCoG8+upGNCKBEUNUWNL0GzdyBZuxGuVxEMwjJ2DWgfwC09kc21Mu6AAAAAABJRU5ErkJggg=="
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
